@@ -1,2 +1,1 @@
 # WNS-writers-portal
-
