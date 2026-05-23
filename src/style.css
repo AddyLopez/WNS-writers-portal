@@ -1,0 +1,247 @@
+:root {
+  --primary-dark: hsl(151 37% 9% / 1);
+  --primary-light: hsl(34, 86%, 94%);
+  --accent-color: hsl(13, 86%, 27%);
+  --secondary-dark: hsl(151 37% 24% / 1);
+  --secondary-light: hsl(39 80% 32% / 1);
+  --secondary-accent: hsl(13, 86%, 37%);
+}
+
+body {
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  font-family: "Sorts Mill Goudy", serif;
+  letter-spacing: 0.5px;
+  margin: 0 auto;
+}
+
+header.Home {
+  background-image:
+    linear-gradient(hsla(0, 0%, 0%, 0.39), hsla(0, 0%, 0%, 0.55)),
+    url("./assets/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--primary-light);
+  line-height: 1.5;
+  margin: 0;
+  padding: 230px 0;
+  text-align: center;
+}
+
+header.Home p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+header.Home h1 {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+header.Home ul {
+  color: var(--primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 60px;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header.Home ul div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+header.Home li {
+  margin: 10px 0;
+}
+
+header.Home a {
+  background-color: var(--primary-dark);
+  border: 2px solid var(--primary-light);
+  border-radius: 5px;
+  color: var(--primary-light);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header.Home a.browse-prompts {
+  padding: 12px 15px;
+}
+
+header.Home a.learn-more {
+  padding: 12px 42px;
+}
+
+header.Home a.view-articles {
+  padding: 12px 32px;
+}
+
+header.Home a.write-for-wns {
+  background: var(--accent-color);
+  /* hsl(32 56% 38% / 1)*/
+  padding: 12px 28px;
+}
+
+header.Home a:visited {
+  color: var(--primary-light);
+}
+
+header.Home a:hover {
+  background-color: var(--secondary-dark);
+}
+
+header.Home a.write-for-wns:hover {
+  background-color: var(--secondary-accent);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+main {
+  padding: 20px 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+main#Learn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+main#Learn article {
+  padding: 35px;
+}
+
+article.accent-panel {
+  background-color: hsl(72, 21%, 24%);
+  color: var(--primary-light);
+}
+
+.accent-panel a {
+  color: var(--primary-light);
+}
+
+.jump-to-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.jump-to-top a {
+  background-color: var(--primary-light);
+  border: 2px solid var(--primary-dark);
+  border-radius: 5px;
+  color: var(--primary-dark);
+  display: block;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 12px 36px;
+  text-decoration: none;
+}
+
+.jump-to-top a:visited {
+  color: var(--primary-dark);
+}
+
+footer {
+  padding-top: 10px;
+  background-color: var(--secondary-light);
+  color: var(--primary-light);
+  font-size: 16px;
+}
+
+footer div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 2;
+  margin: 30px 0;
+}
+
+footer div section {
+  padding: 30px;
+}
+
+footer div section.join-wns {
+  border-left: 2px solid var(--primary-light);
+}
+
+footer div section.join-wns p {
+  font-size: 16px;
+  text-align: left;
+}
+
+footer .attribution {
+  background-color: hsla(0, 0%, 12%, 0.9);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+footer .attribution p {
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 28px;
+}
+
+footer ul {
+  list-style: square;
+}
+
+footer a {
+  color: var(--primary-light);
+}
+
+@media only screen and (max-width: 768px) {
+  main#Learn {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main#Learn article {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  header.Home ul div {
+    flex-direction: column;
+  }
+
+  footer div {
+    grid-template-columns: 1fr;
+  }
+
+  footer div section {
+    padding: 15px;
+  }
+
+  footer div section.join-wns {
+    border: none;
+  }
+  footer .attribution p {
+    font-size: 11px;
+  }
+}
