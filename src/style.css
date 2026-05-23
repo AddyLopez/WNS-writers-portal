@@ -129,6 +129,15 @@ main#Learn article {
   padding: 35px;
 }
 
+main.articles-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  max-width: 100%;
+  padding: 40px;
+}
+
 article.accent-panel {
   background-color: hsl(72, 21%, 24%);
   color: var(--primary-light);
@@ -160,6 +169,20 @@ article.accent-panel {
 
 .jump-to-top a:visited {
   color: var(--primary-dark);
+}
+
+ul#prompts {
+  list-style: none;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+ul#prompts li {
+  border: 2px solid var(--primary-dark);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 footer {
@@ -215,6 +238,12 @@ footer a {
   color: var(--primary-light);
 }
 
+@media only screen and (max-width: 1200px) {
+  main#Learn article {
+    padding: 15px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   main#Learn {
     display: grid;
@@ -223,11 +252,22 @@ footer a {
   main#Learn article {
     padding: 20px;
   }
+
+  main.articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 625px) {
   header.Home ul div {
     flex-direction: column;
+  }
+
+  main.articles-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
   }
 
   footer div {
