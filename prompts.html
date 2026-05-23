@@ -7,7 +7,7 @@
     <title>WNS Writers' Portal | Browse Prompts Page</title>
   </head>
   <body>
-    <header>
+    <header id="writing-prompts">
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -28,7 +28,12 @@
       </div>
     </header>
     <main>
-      <h2>Prompts go here</h2>
+      <ul id="prompts"></ul>
+      <div>
+        <button class="jump-to-top" type="button">
+          <a href="#writing-prompts">Jump to Top</a>
+        </button>
+      </div>
     </main>
     <footer>
     <section>
@@ -56,5 +61,6 @@
             </p>
         </section>
     </footer>
+    <script src="src/main.js" type="module"></script>
   </body>
 </html>
