@@ -1,6 +1,6 @@
 import { promptsLibrary } from "./data/prompts-library.js";
 
-const promptsBox = document.getElementById("prompts");
+const promptsBox = document.getElementById("prompts-container");
 const fragment = document.createDocumentFragment();
 
 promptsLibrary.forEach((item) => {
