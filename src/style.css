@@ -234,7 +234,7 @@ main.articles-grid {
 
 main.articles-grid iframe {
   border-radius: 12px;
-  box-shadow: 3px 3px 4px #9c9696;
+  box-shadow: 3px 3px 4px hsl(0, 3%, 60%);
   max-width: 100%;
 }
 
@@ -289,14 +289,31 @@ ul#prompts-container {
   padding: 0;
 }
 
-ul#prompts-container li {
-  background-color: var(--primary-light);
-  border-radius: 5px;
+ul#prompts-container div {
   border: 2px solid var(--primary-dark);
-  color: var(--primary-dark);
-  padding: 15px;
-  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 4px hsl(0, 3%, 60%);
   font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 10px;
+}
+
+ul#prompts-container p {
+  background-color: var(--accent-color);
+  color: var(--primary-light);
+  font-size: 15px;
+  margin: 0;
+  padding: 15px;
+}
+
+ul#prompts-container div li {
+  background-color: var(--primary-light);
+
+  color: var(--primary-dark);
+  letter-spacing: normal;
+  margin-top: 10px;
+  padding: 15px;
 }
 
 footer {
@@ -371,6 +388,12 @@ footer a {
   main#Learn article {
     padding: 20px;
   }
+
+  ul#prompts-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
 }
 
 @media only screen and (max-width: 625px) {
@@ -381,12 +404,6 @@ footer a {
   main.articles-grid {
     grid-template-columns: 1fr;
     padding: 20px;
-  }
-
-  ul#prompts-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 25px;
   }
 
   footer div {
