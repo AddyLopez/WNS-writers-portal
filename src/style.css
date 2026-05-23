@@ -13,6 +13,7 @@ body {
   font-family: "Sorts Mill Goudy", serif;
   letter-spacing: 0.5px;
   margin: 0 auto;
+  padding: 0;
 }
 
 header.Home {
@@ -393,6 +394,10 @@ footer a {
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
+  }
+
+  header.Home {
+    padding: 110px 0;
   }
 }
 
