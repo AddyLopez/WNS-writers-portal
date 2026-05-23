@@ -5,9 +5,19 @@ const fragment = document.createDocumentFragment();
 
 promptsLibrary.forEach((item) => {
   if (item.isOpen) {
+    const div = document.createElement("div");
+    div.id = `${item.id}`;
+
+    const paragraph = document.createElement("p");
+    paragraph.textContent = `${item.id} | ${item.tags}`;
+
     const listItem = document.createElement("li");
     listItem.textContent = `${item.prompt}`;
-    fragment.appendChild(listItem);
+    listItem.id = `${item.id}-a`;
+
+    fragment.appendChild(div);
+    fragment.getElementById(`${item.id}`).appendChild(paragraph);
+    fragment.getElementById(`${item.id}`).appendChild(listItem);
   }
 });
 
