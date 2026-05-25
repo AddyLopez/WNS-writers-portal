@@ -187,7 +187,7 @@ header#Articles {
   justify-content: center;
   line-height: 1.5;
   margin: 0;
-  padding: 50px 0 40px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -447,6 +447,11 @@ footer .attribution p {
 /* small screens */
 
 @media only screen and (max-width: 625px) {
+  header#Prompts,
+  header#Articles {
+    padding: 50px 0 40px 0;
+  }
+
   header ul div {
     flex-direction: column;
   }
