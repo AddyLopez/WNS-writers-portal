@@ -293,6 +293,7 @@ ul#prompts-container {
 }
 
 ul#prompts-container div {
+  background-color: hsl(0, 0%, 100%);
   border: 2px solid var(--primary-dark);
   border-radius: 5px;
   box-shadow: 3px 3px 4px hsl(0, 3%, 60%);
@@ -311,7 +312,7 @@ ul#prompts-container p {
 }
 
 ul#prompts-container div li {
-  background-color: var(--primary-light);
+  background-color: hsl(0, 0%, 100%);
   color: var(--primary-dark);
   letter-spacing: normal;
   margin-top: 10px;
