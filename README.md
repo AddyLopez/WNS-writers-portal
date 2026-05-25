@@ -22,3 +22,7 @@ I am offering my code and original design as an open-source resource for the com
 MIT License
 
 Copyright (c) 2026 Addy López
+
+## Project Preview
+
+![Writers' Portal Home Page preview](./preview/writers-portal-preview.png)
