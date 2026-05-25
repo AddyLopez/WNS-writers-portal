@@ -47,7 +47,7 @@ export const promptsLibrary = [
   {
     id: "6",
     prompt:
-      "Attend a local government meeting: city council, country commission, APS board. Write a report back. What did you notice? Who was there? What was discussed? If interested, follow up on a particular item or topic and write a piece about its movement through this process of local governance. What does it tell us about building socialism in our context?",
+      "Attend a local government meeting: city council, county commission, APS board. Write a report back. What did you notice? Who was there? What was discussed? If interested, follow up on a particular item or topic and write a piece about its movement through this process of local governance. What does it tell us about building socialism in our context?",
     tags: "local issues, building socialism",
     isOpen: true,
     dateOpened: "2026-05-22",
@@ -165,7 +165,7 @@ export const promptsLibrary = [
     id: "19",
     prompt:
       "Write about a problem you face in your workplace, industry, or union. How might that problem be a rallying point for raising class consciousness?",
-    tags: "working-class struggle, local issues",
+    tags: "working-class struggle, labor, local issues",
     isOpen: true,
     dateOpened: "2026-05-22",
     dateClosed: null,
