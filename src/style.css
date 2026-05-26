@@ -150,6 +150,14 @@ main#Learn article {
   padding: 35px;
 }
 
+main#Learn a {
+  color: var(--primary-dark);
+}
+
+main#Learn .accent-panel a {
+  color: var(--primary-light);
+}
+
 /* Pseudo classes for links' behavior */
 
 header.Home a:visited {
