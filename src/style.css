@@ -375,15 +375,14 @@ footer .attribution div.logo {
   display: flex;
 }
 
-footer .attribution figure {
+footer .attribution picture {
   margin: 5px 0 0 15px;
-  max-width: 37px;
 }
 
 footer .attribution img {
   aspect-ratio: 1 / 1;
   border-radius: 100%;
-  max-width: 100%;
+  width: 37px;
   height: auto;
 }
 
