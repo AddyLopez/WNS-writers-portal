@@ -7,6 +7,10 @@
       name="description"
       content="WNS Writers' Portal: Apply to write for WNS, browse prompts, read our Substack | Workers for a New Southwest"
       />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
     <link rel="apple-touch-icon" sizes="57x57" href="./src/assets/favicons.ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./src/assets/favicons.ico/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./src/assets/favicons.ico/apple-icon-72x72.png">
@@ -24,10 +28,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./src/assets/favicons.ico/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="src/style.css" />
     <title>WNS Writers' Portal</title>
   </head>
   <body>
@@ -222,9 +222,11 @@
       <div class="logo">
         <p>Content by Workers for a New Southwest
         </p>
-        <figure>
-          <img src="src/assets/WNS-logo.png" alt="Workers for a New Southwest Logo" />
-        </figure>
+        <picture>
+          <source type="image/avif" srcset="src/assets/WNS-logo.avif" />
+          <source type="image/png" srcset="src/assets/WNS-logo.png" />
+          <img src="src/assets/WNS-logo.avif" alt="Workers for a New Southwest Logo" />
+        </picture>
       </div>
       <div>
         <p>
