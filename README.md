@@ -8,7 +8,7 @@ Coded in HTML, JavaScript, and CSS, this website constitutes the Writers' Portal
 
 ## Accessibility
 
-This website was designed conscientiously with digital accessibility in mind for those with visual, auditory, motor, and/or cognitive disabilities or sensory impairments. Accessibility score by Lighthouse audit: 100/100 for desktops, 100/100 for mobile devices.
+This website was designed conscientiously with digital accessibility in mind for those with visual, auditory, motor, and/or cognitive disabilities or sensory impairments. I did my best to employ best practices in any code I wrote myself; however, embed code written by Substack's developers may not promote total accessiblity. Accessibility score by Lighthouse audit (home page): 100/100 for desktops, 100/100 for mobile devices.
 
 ## Permissions
 
