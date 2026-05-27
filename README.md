@@ -8,10 +8,7 @@ Coded in HTML, JavaScript, and CSS, this website constitutes the Writers' Portal
 
 ## Accessibility
 
-This website was designed conscientiously with digital accessibility in mind for those with visual, auditory, motor, and/or cognitive disabilities or sensory impairments. While I made every effort to employ best practices, there are nevertheless two areas that are not ideal which were flagged by Lighthouse accessibility audits for mobile and desktop formats.
-
-- First, _iframes_ in embedded content do not have _title_ attributes, which is due to how Substack writes their embed code. Any and all links I directly coded, however, do contain _title_ attributes.
-- Second, the unordered list in the navigation menu of the site contains a _div_ with nested list items. (It is usually best practice to include only list items as direct descendants of a _ul_ for those who use screen readers.) This was a design consideration I made in order to assign a visual hierarchy to the navigation links, a decision which was based on the rules governing Flexbox visual and spatial styling in CSS.
+This website was designed conscientiously with digital accessibility in mind for those with visual, auditory, motor, and/or cognitive disabilities or sensory impairments. Accessibility score by Lighthouse audit: 100/100 for desktops, 100/100 for mobile devices.
 
 ## Permissions
 
