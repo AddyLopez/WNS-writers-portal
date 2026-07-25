@@ -259,7 +259,7 @@ article div.substack-post-embed {
 
 /* Prompts page */
 
-ul#prompts-container {
+section#prompts-container {
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(2, 1fr);
@@ -269,7 +269,7 @@ ul#prompts-container {
   padding: 20px 15px 30px 15px;
 }
 
-ul#prompts-container div {
+section#prompts-container div {
   background-color: hsl(0, 0%, 100%);
   border: 2px solid var(--primary-dark);
   border-radius: 5px;
@@ -280,7 +280,7 @@ ul#prompts-container div {
   margin: 10px;
 }
 
-ul#prompts-container p {
+section#prompts-container p.prompt-title {
   background-color: var(--accent-color);
   color: var(--primary-light);
   font-size: 15px;
@@ -288,10 +288,21 @@ ul#prompts-container p {
   padding: 15px;
 }
 
-ul#prompts-container div li {
+section#prompts-container p.prompt-status {
+  background-color: var(--secondary-dark);
+  border-top: 1px solid var(--primary-dark);
+  border-bottom: 1px solid var(--primary-dark);
+  color: var(--primary-light);
+  font-size: 15px;
+  margin-top: 0;
+  padding: 15px;
+}
+
+section#prompts-container div p.prompt-body {
   background-color: hsl(0, 0%, 100%);
   color: var(--primary-dark);
   letter-spacing: normal;
+  font-size: 20px;
   margin-top: 10px;
   padding: 15px;
 }
