@@ -4,21 +4,27 @@ const promptsBox = document.getElementById("prompts-container");
 const fragment = document.createDocumentFragment();
 
 promptsLibrary.forEach((item) => {
-  if (item.isOpen) {
-    const div = document.createElement("div");
-    div.id = `${item.id}`;
+  const div = document.createElement("div");
+  div.id = `${item.id}`;
 
-    const paragraph = document.createElement("p");
-    paragraph.textContent = `${item.id} | ${item.tags}`;
+  const promptTitle = document.createElement("p");
+  promptTitle.classList.add("prompt-title");
+  promptTitle.textContent = `${item.id} | ${item.tags}`;
 
-    const listItem = document.createElement("li");
-    listItem.textContent = `${item.prompt}`;
-    listItem.id = `${item.id}-a`;
+  const promptBody = document.createElement("p");
+  promptBody.classList.add("prompt-body");
+  promptBody.textContent = `${item.prompt}`;
+  promptBody.id = `${item.id}-a`;
 
-    fragment.appendChild(div);
-    fragment.getElementById(`${item.id}`).appendChild(paragraph);
-    fragment.getElementById(`${item.id}`).appendChild(listItem);
+  fragment.appendChild(div);
+  fragment.getElementById(`${item.id}`).appendChild(promptTitle);
+  if (!item.isOpen) {
+    const promptStatus = document.createElement("p");
+    promptStatus.classList.add("prompt-status");
+    promptStatus.textContent = "completed";
+    fragment.getElementById(`${item.id}`).appendChild(promptStatus);
   }
+  fragment.getElementById(`${item.id}`).appendChild(promptBody);
 });
 
 promptsBox.appendChild(fragment);
