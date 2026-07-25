@@ -422,7 +422,7 @@ footer .attribution img {
     padding: 20px;
     gap: 20px;
   }
-  ul#prompts-container {
+  section#prompts-container {
     max-width: 100%;
   }
 }
@@ -438,7 +438,7 @@ footer .attribution img {
     padding: 20px;
   }
 
-  ul#prompts-container {
+  section#prompts-container {
     display: grid;
     gap: 25px;
     grid-template-columns: 1fr;
