@@ -112,9 +112,9 @@ export const promptsLibrary = [
     prompt:
       "If you are a regular participant in Albuquerque Workers School, conduct an interview with its lead organizers, Rudy and Marty, about the school and its most recent curriculum. Possible questions to consider: How did the School come to be? What are its aims? What was the ambition behind the latest curriculum? What is the importance of popular Marxist education, especially in Albuquerque? How does the School challenge workers’ oppression? What role does collective study have to play in movement building? What’s next for Workers School? Consider adapting language from the syllabus or including a link to it in this article.",
     tags: "interview, education, building socialism",
-    isOpen: true,
+    isOpen: false,
     dateOpened: "2026-05-22",
-    dateClosed: null,
+    dateClosed: "2026-06-23",
   },
   {
     id: "14",
