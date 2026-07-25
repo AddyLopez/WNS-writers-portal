@@ -6,6 +6,7 @@
   --accent-color: hsl(13, 86%, 27%);
   --secondary-dark: hsl(151 37% 24% / 1);
   --secondary-accent: hsl(13, 86%, 37%);
+  --tertiary-dark: hsl(72, 21%, 24%);
 }
 
 /* Site-wide general styles */
@@ -34,7 +35,7 @@ h1 {
 }
 
 h2 {
-  background-color: hsla(0, 0%, 12%, 0.9);
+  background-color: var(--primary-dark);
   color: var(--primary-light);
   font-size: 40px;
   padding: 20px 0;
@@ -43,10 +44,6 @@ h2 {
 
 h3 {
   font-size: 28px;
-}
-
-main {
-  padding: 0 0 20px 0;
 }
 
 p {
@@ -124,7 +121,7 @@ header#Home a.write-for-wns {
 }
 
 article.accent-panel {
-  background-color: hsl(72, 21%, 24%);
+  background-color: var(--tertiary-dark);
   color: var(--primary-light);
 }
 
@@ -196,11 +193,26 @@ header#Articles {
 
 .writing-prompts h1,
 .articles h1 {
-  background-color: hsla(0, 0%, 12%, 0.9);
+  background-color: var(--primary-dark);
   color: var(--primary-light);
   font-size: 40px;
   padding: 20px 0;
   text-align: center;
+}
+
+.articles h2 {
+  background-color: var(--tertiary-dark);
+  font-size: 34px;
+  letter-spacing: 0.5px;
+  padding-left: 40px;
+}
+
+.contributions {
+  background-color: hsla(72, 21%, 24%, 0.7);
+}
+
+.public-statements {
+  background-color: hsla(72, 21%, 24%, 0.9);
 }
 
 /* Utility class */
@@ -237,7 +249,7 @@ section.articles-grid {
 
 section.articles-grid iframe {
   border-radius: 12px;
-  box-shadow: 3px 3px 4px hsl(0, 3%, 60%);
+  box-shadow: 3px 3px 4px hsl(0, 3%, 25%);
   max-width: 100%;
 }
 
@@ -254,7 +266,7 @@ ul#prompts-container {
   list-style: none;
   margin: 0 auto;
   max-width: 75%;
-  padding: 20px 15px;
+  padding: 20px 15px 30px 15px;
 }
 
 ul#prompts-container div {
@@ -290,13 +302,14 @@ ul#prompts-container div li {
   display: flex;
   justify-content: center;
   margin-bottom: 35px;
+  margin-top: 20px;
 }
 
 .jump-to-top a {
-  background-color: var(--primary-light);
-  border: 2px solid var(--primary-dark);
+  background-color: var(--primary-dark);
+  border: 2px solid var(--primary-light);
   border-radius: 5px;
-  color: var(--primary-dark);
+  color: var(--primary-light);
   display: block;
   font-family: "Sorts Mill Goudy", serif;
   font-size: 18px;
@@ -309,16 +322,16 @@ ul#prompts-container div li {
 }
 
 .jump-to-top a:visited {
-  color: var(--primary-dark);
+  color: var(--primary-light);
 }
 
 /* Site-wide footer */
 
 footer {
-  background-color: var(--secondary-dark);
+  background-color: hsla(151, 37%, 9%, 0.9);
   color: var(--primary-light);
   font-size: 16px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 footer ul {
@@ -352,7 +365,7 @@ footer div section.join-wns p {
 
 footer .attribution {
   align-items: center;
-  background-color: hsla(0, 0%, 12%, 0.9);
+  background-color: var(--primary-dark);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
