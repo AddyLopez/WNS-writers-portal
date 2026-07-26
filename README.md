@@ -13,9 +13,9 @@ This website was designed conscientiously with digital accessibility in mind for
 Ratings by Lighthouse Audit:
 
 - Desktop:
-  ![Writers' Portal Ratings for Desktop](../WNS-writers-portal/preview/wns-writers-portal-lighthouse-audit-desktop.png)
+  ![Writers' Portal Ratings for Desktop](./preview/wns-writers-portal-lighthouse-audit-desktop.png)
 - Mobile
-  ![Writers' Portal Ratings for Mobile](../WNS-writers-portal/preview/wns-writers-portal-lighthouse-audit-mobile.png)
+  ![Writers' Portal Ratings for Mobile](./preview/wns-writers-portal-lighthouse-audit-mobile.png)
 
 ## Permissions
 
