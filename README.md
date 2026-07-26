@@ -4,7 +4,7 @@
 
 ## Description
 
-Coded in HTML, JavaScript, and CSS, this website constitutes the Writers' Portal for Workers for a New Southwest (WNS). The Writers' Portal is where prospective writers from the WNS general community can learn more, browse prompts, and view published articles embedded from WNS's Substack. WNS is a grassroots organization based in Albuquerque, New Mexico. To find out more, visit WNS's Instagram account here: [https://www.instagram.com/workersforanewsouthwest/?hl=en](https://www.instagram.com/workersforanewsouthwest/?hl=en). This website was coded _pro bono_ from scratch to support a strong culture of writing, critical reflection, and human development.
+Coded in HTML, JavaScript, and CSS, this website constitutes the Writers' Portal for Workers for a New Southwest (WNS). The Writers' Portal is where prospective writers from the WNS general community can learn more, browse prompts, and view published articles embedded from WNS's Substack. WNS is a grassroots organization based in Albuquerque, New Mexico. To find out more, visit WNS's Instagram account here: [https://www.instagram.com/workersforanewsouthwest/?hl=en](https://www.instagram.com/workersforanewsouthwest/?hl=en). The design is accessible and fully responsive across mobile devices, tablets, and desktops. This website was coded _pro bono_ from scratch to support a strong culture of writing, critical reflection, and human development.
 
 ## Accessibility
 
