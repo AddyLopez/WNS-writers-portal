@@ -10,6 +10,13 @@ Coded in HTML, JavaScript, and CSS, this website constitutes the Writers' Portal
 
 This website was designed conscientiously with digital accessibility in mind for those with visual, auditory, motor, and/or cognitive disabilities or sensory impairments. Every effort was made to use best practices where feasible.
 
+Ratings by Lighthouse Audit:
+
+- Desktop:
+  ![Writers' Portal Ratings for Desktop](../WNS-writers-portal/preview/wns-writers-portal-lighthouse-audit-desktop.png)
+- Mobile
+  ![Writers' Portal Ratings for Mobile](../WNS-writers-portal/preview/wns-writers-portal-lighthouse-audit-mobile.png)
+
 ## Permissions
 
 I am offering my code and original design as an open-source resource for the community. However, the textual content, image(s) in the _assets_ directory, and data in the _data_ directory belong to the organization Workers for a New Southwest. Therefore, if you reuse my code, be sure not to appropriate their content, images, logo, or data. Thank you.
