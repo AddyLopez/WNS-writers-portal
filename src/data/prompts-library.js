@@ -119,7 +119,7 @@ export const promptsLibrary = [
   {
     id: "14",
     prompt:
-      "Write a piece that explores the history and legacy of the Center for Peace and Justice, a living monument to radical movement organizing in Albuquerque. Conduct research individually or with a comrade and consider including statements from community elders such as Bob Anderson and/or members of the Center's Coordinating Council (consult their website).",
+      "Write a piece that explores the history and legacy of the Center for Peace and Justice, a living monument to radical movement organizing in Albuquerque. Conduct research individually or with a comrade and consider including statements from community elders active with the Peace Center and/or members of the Peace Center's Coordinating Council (consult their website).",
     tags: "interview, intergenerational, history, anti-imperialism, NM culture",
     isOpen: true,
     dateOpened: "2026-05-22",
