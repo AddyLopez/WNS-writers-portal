@@ -58,9 +58,9 @@ export const promptsLibrary = [
     prompt:
       "Research a local issue that you feel passionate about—housing, healthcare, education, etc. What are some local obstacles to improving this? What are some areas for hope? Could look into city council/county commission, local NGOs, state level legislation.",
     tags: "local issues, housing, healthcare, education, working-class struggle",
-    isOpen: true,
+    isOpen: false,
     dateOpened: "2026-05-22",
-    dateClosed: null,
+    dateClosed: "2026-09-19",
   },
   {
     id: "8",
